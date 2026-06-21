@@ -1,7 +1,7 @@
 +++
 date = '2026-06-21T22:00:00+05:30'
 draft = false
-title = 'Introduction to Python'
+title = 'Welcome to Python'
 +++
 
 # Introduction to Python
