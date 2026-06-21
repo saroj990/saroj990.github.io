@@ -4,8 +4,6 @@ draft = false
 title = 'Introduction to Node.js'
 +++
 
-# Introduction to Node.js
-
 JavaScript has long been the language of the browser, powering interactive user experiences across the web. However, with the introduction of Node.js, JavaScript expanded beyond the browser and became a powerful tool for building server-side applications, APIs, command-line tools, and more.
 
 ## What is Node.js?

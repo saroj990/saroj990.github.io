@@ -13,8 +13,7 @@
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 21 Jun 2026 21:26:19 +0530</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;introduction-to-nodejs&#34;&gt;Introduction to Node.js&lt;/h1&gt;
-&lt;p&gt;JavaScript has long been the language of the browser, powering interactive user experiences across the web. However, with the introduction of Node.js, JavaScript expanded beyond the browser and became a powerful tool for building server-side applications, APIs, command-line tools, and more.&lt;/p&gt;
+      <description>&lt;p&gt;JavaScript has long been the language of the browser, powering interactive user experiences across the web. However, with the introduction of Node.js, JavaScript expanded beyond the browser and became a powerful tool for building server-side applications, APIs, command-line tools, and more.&lt;/p&gt;
 &lt;h2 id=&#34;what-is-nodejs&#34;&gt;What is Node.js?&lt;/h2&gt;
 &lt;p&gt;Node.js is an open-source, cross-platform runtime environment that allows developers to execute JavaScript code outside the browser. Built on Google&amp;rsquo;s V8 JavaScript engine, Node.js compiles JavaScript into machine code, making it fast and efficient.&lt;/p&gt;</description>
     </item>
