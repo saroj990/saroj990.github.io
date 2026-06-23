@@ -1,7 +1,7 @@
 +++
 date = '2026-06-21T23:00:00+05:30'
 draft = false
-title = 'The Cognitive deb of ai assisted coding'
+title = 'The Cognitive debt of ai assisted coding'
 +++
 
 # Coding Agents Are Powerful, But Don't Let Them Think for You
