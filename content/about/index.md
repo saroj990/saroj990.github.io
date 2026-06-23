@@ -4,8 +4,6 @@ draft = false
 title = 'About'
 +++
 
-About Me
-
 Hi, I'm Saroj.
 
 I'm a Software Engineer with experience building scalable web and mobile applications using modern technologies such as React, React Native, Node.js, and cloud platforms.

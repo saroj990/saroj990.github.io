@@ -10,7 +10,7 @@ ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowToc = true
+ShowToc = false
 
 [params.homeInfoParams]
 Title = "Hi, I'm Saroj 👋"
