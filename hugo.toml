@@ -2,3 +2,58 @@ baseURL = 'https://saroj990.github.io/'
 locale = 'en-us'
 title = 'Saroj Blog'
 theme = 'PaperMod'
+
+[params]
+defaultTheme = "dark"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+
+[params.homeInfoParams]
+Title = "Hi, I'm Saroj 👋"
+Content = """
+Software Engineer | AI | React | Node.js | GIS | System Design
+
+I write about software engineering, backend development,
+system design, AI tools, and lessons learned from building products.
+"""
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 40
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/saroj990"
+
+# Add when available
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/saroj-sasamal-463bb3106/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:sarojsasmal@gmail.com"

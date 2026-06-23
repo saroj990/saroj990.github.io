@@ -2,6 +2,8 @@
 date = '2026-06-21T22:00:00+05:30'
 draft = false
 title = 'Welcome to Python'
+tags = ["AI", "Python", "Python Porgramming"]
+categories = ["Programming", "AI", "Python", "Automation"]
 +++
 
 # Introduction to Python
