@@ -2,6 +2,9 @@
 date = '2026-06-21T21:26:19+05:30'
 draft = false
 title = 'Introduction to Node.js'
+description = 'How Node.js brought JavaScript to the server — its event-driven model, strengths, and role in modern backend development.'
+tags = ['Node.js', 'JavaScript', 'Backend']
+categories = ['Programming']
 +++
 
 JavaScript has long been the language of the browser, powering interactive user experiences across the web. However, with the introduction of Node.js, JavaScript expanded beyond the browser and became a powerful tool for building server-side applications, APIs, command-line tools, and more.

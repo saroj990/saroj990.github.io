@@ -1,59 +1,91 @@
 baseURL = 'https://saroj990.github.io/'
 locale = 'en-us'
-title = 'Saroj Blog'
+title = 'Saroj Sasamal'
 theme = 'PaperMod'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
-defaultTheme = "dark"
+env = 'production'
+description = 'Software engineer writing about full-stack development, system design, GIS, and AI-assisted development.'
+keywords = ['software engineering', 'system design', 'React', 'Node.js', 'GIS', 'AI']
+defaultTheme = 'dark'
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowToc = false
+ShowToc = true
+mainSections = ['posts']
 
-[params.homeInfoParams]
-Title = "Hi, I'm Saroj 👋"
-Content = """
-Software Engineer | AI | React | Node.js | GIS | System Design
+[params.profileMode]
+enabled = true
+title = 'Saroj Sasamal'
+subtitle = 'Software Engineer · Full Stack · GIS · System Design'
+imageUrl = '/images/profile.svg'
+imageTitle = 'Saroj Sasamal'
+imageWidth = 160
+imageHeight = 160
 
-I write about software engineering, backend development,
-system design, AI tools, and lessons learned from building products.
-"""
+[[params.profileMode.buttons]]
+name = 'View Projects'
+url = '/projects/'
+
+[[params.profileMode.buttons]]
+name = 'Read Posts'
+url = '/posts/'
+
+[[params.profileMode.buttons]]
+name = 'Get in Touch'
+url = '/contact/'
+
+[params.assets]
+favicon = '/favicon.svg'
+favicon16x16 = '/favicon.svg'
+favicon32x32 = '/favicon.svg'
+
+[params.cover]
+responsiveImages = true
 
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
 weight = 10
 
 [[menu.main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects/"
+identifier = 'projects'
+name = 'Projects'
+url = '/projects/'
 weight = 20
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
+identifier = 'about'
+name = 'About'
+url = '/about/'
 weight = 30
 
 [[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
+identifier = 'search'
+name = 'Search'
+url = '/search/'
 weight = 40
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/saroj990"
-
-# Add when available
-[[params.socialIcons]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/saroj-sasamal-463bb3106/"
+[[menu.main]]
+identifier = 'contact'
+name = 'Contact'
+url = '/contact/'
+weight = 50
 
 [[params.socialIcons]]
-name = "email"
-url = "mailto:sarojsasmal@gmail.com"
+name = 'github'
+url = 'https://github.com/saroj990'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/saroj-sasamal-463bb3106/'
+
+[[params.socialIcons]]
+name = 'email'
+url = 'mailto:sarojsasmal@gmail.com'

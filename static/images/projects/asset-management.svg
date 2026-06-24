@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Asset management preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#2d2d4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#16213e" stroke="#3d3d6b" stroke-width="2"/>
+  <rect x="70" y="80" width="300" height="20" rx="4" fill="#3d3d6b"/>
+  <rect x="70" y="120" width="660" height="40" rx="6" fill="#1f2f50"/>
+  <rect x="70" y="175" width="660" height="40" rx="6" fill="#1f2f50"/>
+  <rect x="70" y="230" width="660" height="40" rx="6" fill="#1f2f50"/>
+  <rect x="70" y="285" width="660" height="40" rx="6" fill="#1f2f50"/>
+  <rect x="600" y="125" width="80" height="24" rx="12" fill="#6b8afd"/>
+  <rect x="600" y="180" width="80" height="24" rx="12" fill="#4ecdc4"/>
+  <text x="400" y="400" text-anchor="middle" fill="#6b8afd" font-family="system-ui,sans-serif" font-size="18">Asset Management Platform</text>
+</svg>

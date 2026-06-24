@@ -1,12 +1,13 @@
 +++
 date = '2026-06-21T22:00:00+05:30'
 draft = false
-title = 'Welcome to Python'
-tags = ["AI", "Python", "Python Porgramming"]
-categories = ["Programming", "AI", "Python", "Automation"]
+title = 'Introduction to Python'
+description = 'A practical overview of Python — what it is, why it matters, and where it fits in modern software development.'
+tags = ['Python', 'Programming', 'Automation']
+categories = ['Programming']
 +++
 
-# Introduction to Python
+## Introduction to Python
 
 Python is one of the most popular programming languages in the world. Known for its simplicity, readability, and versatility, Python is used in web development, automation, data science, artificial intelligence, machine learning, cybersecurity, and many other domains.
 

@@ -2,23 +2,23 @@
 date = '2026-06-23T17:24:58+05:30'
 draft = false
 title = 'About'
+description = 'Software engineer focused on full-stack development, system design, GIS, and AI-assisted development.'
 +++
 
-Hi, I'm Saroj.
+I'm a software engineer with experience building scalable web and mobile applications using React, React Native, Node.js, and cloud platforms.
 
-I'm a Software Engineer with experience building scalable web and mobile applications using modern technologies such as React, React Native, Node.js, and cloud platforms.
+I enjoy solving complex engineering problems and sharing what I learn along the way. This site is where I document technical learnings, architecture decisions, development workflows, and thoughts on software engineering.
 
-My professional interests include:
+## What I work on
 
-Full Stack Development
-System Design
-GIS and Mapping Technologies
-Cloud Computing
-Mobile Development
-AI-Assisted Software Development
+- Full-stack web and mobile development
+- System design and scalable architecture
+- GIS and mapping technologies
+- Cloud infrastructure and deployment
+- AI-assisted software development
 
-I enjoy solving complex engineering problems and sharing my experiences through writing.
+## Beyond code
 
-This blog is where I document technical learnings, architecture decisions, development workflows, and thoughts on software engineering.
+Outside of engineering, I explore new technologies, self-hosting, and developer tooling. I'm always open to conversations about architecture, GIS, and collaboration opportunities.
 
-Outside of coding, I enjoy exploring new technologies, self-hosting, and experimenting with developer tools.
+[View my projects →](/projects/) · [Get in touch →](/contact/)

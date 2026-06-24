@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Saroj Sasamal  Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1324"/>
+      <stop offset="100%" stop-color="#1f2a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="180" cy="315" r="72" fill="#2d3a6b"/>
+  <text x="180" y="335" text-anchor="middle" fill="#e8ecff" font-family="system-ui, sans-serif" font-size="56" font-weight="600">SS</text>
+  <text x="290" y="285" fill="#ffffff" font-family="system-ui, sans-serif" font-size="56" font-weight="700">Saroj Sasamal</text>
+  <text x="290" y="345" fill="#b8c4f0" font-family="system-ui, sans-serif" font-size="30">Software Engineer · Full Stack · GIS · System Design</text>
+  <text x="290" y="395" fill="#8b97c7" font-family="system-ui, sans-serif" font-size="24">saroj990.github.io</text>
+</svg>

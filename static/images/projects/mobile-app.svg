@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="Mobile app preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f1a"/>
+      <stop offset="100%" stop-color="#1f1f3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="310" y="50" width="180" height="340" rx="24" fill="#1a1a2e" stroke="#3d3d6b" stroke-width="3"/>
+  <rect x="330" y="90" width="140" height="200" rx="8" fill="#16213e"/>
+  <rect x="345" y="110" width="110" height="12" rx="3" fill="#6b8afd"/>
+  <rect x="345" y="135" width="90" height="8" rx="2" fill="#3d3d6b"/>
+  <rect x="345" y="160" width="110" height="60" rx="6" fill="#2d2d4a"/>
+  <rect x="345" y="235" width="110" height="40" rx="6" fill="#2d2d4a"/>
+  <circle cx="400" cy="330" r="20" fill="#6b8afd"/>
+  <text x="400" y="420" text-anchor="middle" fill="#6b8afd" font-family="system-ui,sans-serif" font-size="18">Mobile Customer Experience</text>
+</svg>

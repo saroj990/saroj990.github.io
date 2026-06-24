@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="GIS platform preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b3a5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#12263a" stroke="#2d5a87" stroke-width="2"/>
+  <path d="M120 280 L220 200 L320 240 L420 160 L520 220 L620 180 L680 260" fill="none" stroke="#4ecdc4" stroke-width="3"/>
+  <circle cx="220" cy="200" r="8" fill="#4ecdc4"/>
+  <circle cx="420" cy="160" r="8" fill="#4ecdc4"/>
+  <circle cx="620" cy="180" r="8" fill="#4ecdc4"/>
+  <rect x="60" y="60" width="120" height="24" rx="4" fill="#2d5a87"/>
+  <text x="400" y="400" text-anchor="middle" fill="#6b8afd" font-family="system-ui,sans-serif" font-size="18">GIS Data Visualization</text>
+</svg>

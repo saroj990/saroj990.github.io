@@ -1,12 +1,11 @@
 +++
 date = '2026-06-21T23:00:00+05:30'
 draft = false
-title = 'The Cognitive debt of ai assisted coding'
-tags = ["AI", "Cognitive Thinking"]
-categories = ["Programming", "AI"]
+title = 'The Cognitive Debt of AI-Assisted Development'
+description = 'Why over-relying on AI coding agents can erode the thinking skills that make engineers valuable — and how to use them without surrendering understanding.'
+tags = ['AI', 'Software Engineering', 'Cognitive Thinking']
+categories = ['Programming', 'AI']
 +++
-
-# Coding Agents Are Powerful, But Don't Let Them Think for You
 
 The rise of AI coding assistants and autonomous coding agents has fundamentally changed how software is built. Tasks that once took hours can now be completed in minutes. Boilerplate code, tests, documentation, and even architectural suggestions are available almost instantly.
 
