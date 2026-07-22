@@ -2,37 +2,122 @@
     --home-accent: #6b8afd;
 }
 
-.profile .profile_inner img {
-    border-radius: 50%;
-    border: 3px solid var(--border);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+/* Custom homepage — avoids PaperMod post-entry display bugs */
+.home-hero {
+    margin: 0 auto 2rem;
+    max-width: 40rem;
+    text-align: center;
 }
 
-.profile .buttons .button {
+.home-avatar {
+    border: 3px solid var(--border);
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 96px;
+    margin: 0 auto 1rem;
+    width: 96px;
+}
+
+.home-hero h1 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+}
+
+.home-role {
+    color: var(--primary);
+    font-weight: 600;
+    margin: 0 0 0.75rem;
+}
+
+.home-bio {
+    color: var(--secondary);
+    margin: 0 0 1.25rem;
+}
+
+.home-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.home-btn {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--primary) !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.45rem 0.9rem;
+    text-decoration: none !important;
+}
+
+.home-btn:hover {
     border-color: var(--home-accent);
 }
 
-.profile .buttons .button:hover {
+.home-btn-primary {
     background: var(--home-accent);
     border-color: var(--home-accent);
+    color: #fff !important;
 }
 
-.home-posts-header {
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0;
-    border-bottom: none;
+.home-social {
+    display: flex;
+    justify-content: center;
 }
 
-.home-posts-header h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.35rem;
+.home-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.home-posts-subtitle {
-    color: var(--secondary);
+.home-posts-title {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin: 0 0 0.25rem;
+}
+
+.home-post {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: inherit;
+    display: block;
+    padding: 1.1rem 1.25rem;
+    text-decoration: none !important;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.home-post:hover {
+    border-color: var(--home-accent);
+    transform: translateY(-2px);
+}
+
+.home-post h3 {
+    color: var(--primary) !important;
+    font-size: 1.15rem;
+    line-height: 1.35;
+    margin: 0 0 0.45rem;
+}
+
+.home-post p {
+    color: var(--secondary) !important;
     font-size: 0.95rem;
-    margin: 0;
+    line-height: 1.55;
+    margin: 0 0 0.55rem;
+}
+
+.home-post-meta {
+    color: var(--secondary);
+    font-size: 0.85rem;
+}
+
+.home-empty {
+    color: var(--secondary);
 }
 
 .page-header .post-description {
@@ -157,4 +242,30 @@
     color: var(--secondary);
     font-size: 0.85rem;
     min-width: 4.5rem;
+}
+
+.post-content figure,
+.post-content p > img {
+    margin: 1.5rem 0;
+}
+
+.post-content figure img,
+.post-content p > img {
+    background: #0f1324;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    display: block;
+    height: auto;
+    margin: 1rem auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.post-content figure figcaption,
+.post-content p > img + em {
+    color: var(--secondary);
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    text-align: center;
 }

@@ -6,12 +6,11 @@ description = 'A practical guide to understanding how Large Language Models work
 tags = ['LLM', 'AI', 'Ollama', 'LM Studio', 'Local AI', 'Tutorial']
 categories = ['AI', 'Engineering']
 summary = 'Understand tokenization, transformers, and next-token prediction — then run open-weight models on your own machine with Ollama or LM Studio.'
-
-[cover]
-image = '/images/posts/understanding-llms/cover.svg'
-alt = 'Diagram showing a local app connecting to Ollama or LM Studio and a GGUF model'
-caption = 'Local LLM setup: your app talks to a runtime on localhost, which loads a quantized model.'
 +++
+
+<img src="/images/posts/understanding-llms/cover.svg" alt="Local LLM setup: app to runtime to GGUF model" width="960" height="400" />
+
+*Local LLM setup: your app talks to a runtime on localhost, which loads a quantized model.*
 
 For years, using a powerful language model meant sending your data to a cloud API and paying per token. That has changed. Open-weight models like Llama, Qwen, and Gemma now run on consumer hardware with quality that rivals many proprietary APIs.
 
@@ -31,7 +30,8 @@ An LLM doesn't read words — it reads **tokens**. Tokenization breaks text into
 
 When you type a prompt, it is converted into a sequence of integers (token IDs) that the model can process.
 
-{{< figure src="/images/posts/understanding-llms/tokenization.svg" alt="Flow from text prompt to tokenizer to token IDs" caption="Your prompt is tokenized into integer IDs before the model sees it." >}}
+<img src="/images/posts/understanding-llms/tokenization.svg" alt="Flow from text prompt to tokenizer to token IDs" width="900" height="280" />
+*Your prompt is tokenized into integer IDs before the model sees it.*
 
 ### The Transformer Architecture
 
@@ -45,6 +45,9 @@ Key components include:
 - **Feed-forward layers** — learned transformations applied after attention
 - **Residual connections and layer normalization** — stabilize training across hundreds of layers
 
+<img src="/images/posts/understanding-llms/attention.svg" alt="Self-attention on the phrase river bank" width="900" height="300" />
+*Self-attention helps the model disambiguate words using surrounding context.*
+
 ### Next-Token Prediction
 
 At its core, an LLM is a **next-token predictor**. Given a sequence of tokens, it outputs a probability distribution over what token should come next. To generate a response, the model:
@@ -56,7 +59,8 @@ At its core, an LLM is a **next-token predictor**. Given a sequence of tokens, i
 
 This is why LLMs are called **autoregressive** — they generate text one token at a time, feeding each prediction back into the input.
 
-{{< figure src="/images/posts/understanding-llms/next-token-loop.svg" alt="Autoregressive loop: input tokens, transformer, sample, append, repeat" caption="Generation is a loop: predict one token, append it, predict again." >}}
+<img src="/images/posts/understanding-llms/next-token-loop.svg" alt="Autoregressive next-token prediction loop" width="900" height="320" />
+*Generation is a loop: predict one token, append it, predict again.*
 
 ### Generation Strategies: Temperature and Top-p
 
@@ -69,9 +73,15 @@ Raw next-token prediction is deterministic. To make outputs creative and varied,
 
 A full-precision 7-billion-parameter model requires ~28 GB of memory (4 bytes per parameter). **Quantization** compresses weights to lower precision — typically 4-bit or 8-bit — reducing memory usage by 50–75% with minimal quality loss. Formats like **GGUF** and **Q4_K_M** are optimized for inference on consumer CPUs and GPUs.
 
+<img src="/images/posts/understanding-llms/quantization.svg" alt="FP16 vs Q4_K_M memory usage" width="900" height="280" />
+*Quantization shrinks a 7B model from ~28 GB to ~5 GB — why local inference works on a laptop.*
+
 ---
 
 ## Why Run LLMs Locally?
+
+<img src="/images/posts/understanding-llms/cloud-vs-local.svg" alt="Cloud API vs local runtime" width="960" height="400" />
+*Local runtimes keep prompts on your machine instead of sending them to a cloud API.*
 
 Running models on your own hardware has become a mainstream choice:
 
@@ -138,9 +148,8 @@ You can also pipe prompts directly:
 echo "Explain the difference between a mutex and a semaphore" | ollama run qwen3:8b
 ```
 
-> **Tip:** Add a screenshot here for extra clarity — save it as `static/images/posts/understanding-llms/ollama-terminal.png` and embed it with the figure shortcode below.
->
-> `{{</* figure src="/images/posts/understanding-llms/ollama-terminal.png" alt="Ollama terminal running qwen3:8b" caption="Ollama running an interactive chat in the terminal." */>}}`
+<img src="/images/posts/understanding-llms/ollama-terminal.svg" alt="Ollama terminal running qwen3:8b" width="960" height="540" />
+*Ollama pulls a model, runs chat, and serves an OpenAI-compatible API on port 11434.*
 
 ### Using the OpenAI-Compatible API
 
@@ -197,7 +206,11 @@ Download the installer for your OS from [lmstudio.ai](https://lmstudio.ai). It s
 3. **Chat** — load the model and start chatting in the playground
 4. **Serve** — enable the local server in the **Developer** tab to expose an API on `localhost:1234`
 
-> **Tip:** Screenshot the LM Studio chat UI and Developer tab — readers find GUI walkthroughs much easier to follow than text alone.
+<img src="/images/posts/understanding-llms/lm-studio-chat.svg" alt="LM Studio chat interface" width="960" height="540" />
+*Browse models, load a quantization, and chat in the LM Studio playground.*
+
+<img src="/images/posts/understanding-llms/lm-studio-server.svg" alt="LM Studio Developer server tab" width="960" height="420" />
+*Enable the local server in the Developer tab to expose an OpenAI-compatible API.*
 
 ### API Integration
 
@@ -282,4 +295,4 @@ Running LLMs locally is no longer a compromise between privacy and capability �
 
 Pick a model, install a runtime, and point your existing tools at `localhost`. Your data stays yours, your costs stay fixed, and your AI works offline.
 
-**Next steps:** Pull `qwen3:8b` with Ollama, send one API request from Python, then swap in your own screenshot and a real project use case.
+**Next steps:** Pull `qwen3:8b` with Ollama, send one API request from Python, then replace the diagram images in `static` with your own screenshots if you want.

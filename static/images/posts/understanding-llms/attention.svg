@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Self-attention example">
+  <rect width="900" height="300" fill="#0f1324"/>
+  <text x="450" y="36" text-anchor="middle" fill="#e8ecff" font-family="system-ui,sans-serif" font-size="18" font-weight="600">Self-Attention: "river bank"</text>
+  <rect x="180" y="80" width="120" height="50" rx="8" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="240" y="112" text-anchor="middle" fill="#e8ecff" font-size="16">river</text>
+  <rect x="380" y="80" width="120" height="50" rx="8" fill="#16213e" stroke="#4ecdc4" stroke-width="3"/>
+  <text x="440" y="112" text-anchor="middle" fill="#e8ecff" font-size="16" font-weight="600">bank</text>
+  <path d="M300 105 C340 50 400 50 440 80" fill="none" stroke="#4ecdc4" stroke-width="3"/>
+  <text x="370" y="55" text-anchor="middle" fill="#4ecdc4" font-size="12">high attention</text>
+  <rect x="580" y="80" width="120" height="50" rx="8" fill="#1a2548" stroke="#3d4f8a" stroke-width="1" stroke-dasharray="4 3" opacity="0.7"/>
+  <text x="640" y="112" text-anchor="middle" fill="#8b97c7" font-size="16">money</text>
+  <path d="M500 105 C540 160 600 160 640 105" fill="none" stroke="#8b97c7" stroke-width="2" stroke-dasharray="5 4" opacity="0.7"/>
+  <text x="570" y="175" text-anchor="middle" fill="#8b97c7" font-size="12">low attention</text>
+  <text x="450" y="240" text-anchor="middle" fill="#b8c4f0" font-size="14">Context decides which nearby words matter for each token</text>
+</svg>

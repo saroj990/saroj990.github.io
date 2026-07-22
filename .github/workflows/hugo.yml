@@ -22,8 +22,13 @@ jobs:
       - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: latest
+          extended: true
 
-      - run: hugo --minify
+      - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --minify --gc
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public

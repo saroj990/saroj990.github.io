@@ -7,7 +7,6 @@ theme = 'PaperMod'
 unsafe = true
 
 [params]
-env = 'production'
 description = 'Software engineer writing about full-stack development, system design, GIS, and AI-assisted development.'
 keywords = ['software engineering', 'system design', 'React', 'Node.js', 'GIS', 'AI']
 defaultTheme = 'dark'
@@ -18,27 +17,6 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowToc = true
 mainSections = ['posts']
-
-[params.profileMode]
-enabled = true
-title = 'Saroj Sasamal'
-subtitle = 'Software Engineer · Full Stack · GIS · System Design'
-imageUrl = '/images/profile.svg'
-imageTitle = 'Saroj Sasamal'
-imageWidth = 160
-imageHeight = 160
-
-[[params.profileMode.buttons]]
-name = 'View Projects'
-url = '/projects/'
-
-[[params.profileMode.buttons]]
-name = 'Read Posts'
-url = '/posts/'
-
-[[params.profileMode.buttons]]
-name = 'Get in Touch'
-url = '/contact/'
 
 [params.assets]
 favicon = '/favicon.svg'

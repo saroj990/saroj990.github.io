@@ -1,0 +1,35 @@
+{{- define "main" }}
+
+<section class="home-hero">
+  <img class="home-avatar" src="{{ "images/profile.svg" | relURL }}" alt="Saroj Sasamal" width="96" height="96" />
+  <h1>Hi, I'm Saroj</h1>
+  <p class="home-role">Software Engineer · Full Stack · GIS · System Design</p>
+  <p class="home-bio">I write about software engineering, backend development, system design, AI tools, and lessons from building products.</p>
+  <div class="home-cta">
+    <a class="home-btn home-btn-primary" href="{{ "projects/" | relURL }}">View Projects</a>
+    <a class="home-btn" href="{{ "posts/" | relURL }}">Read Posts</a>
+    <a class="home-btn" href="{{ "contact/" | relURL }}">Get in Touch</a>
+  </div>
+  <div class="home-social">
+    {{- partial "social_icons.html" (dict) -}}
+  </div>
+</section>
+
+<section class="home-posts">
+  <h2 class="home-posts-title">Latest Writing</h2>
+  {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+  {{- range $pages -}}
+  <a class="home-post" href="{{ .RelPermalink }}">
+    <h3>{{ .Title }}</h3>
+    <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}</p>
+    <span class="home-post-meta">
+      {{- .Date | time.Format ":date_medium" -}}
+      {{- with .ReadingTime }} · {{ . }} min{{ end -}}
+    </span>
+  </a>
+  {{- else -}}
+  <p class="home-empty">No posts yet.</p>
+  {{- end -}}
+</section>
+
+{{- end -}}
