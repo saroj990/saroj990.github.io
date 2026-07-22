@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420">
+  <rect width="960" height="420" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">The Agent Loop</text>
+  <rect x="60" y="70" width="160" height="70" rx="10" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="140" y="100" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">1. Perceive</text>
+  <text x="140" y="122" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="11">goal + context</text>
+  <line x1="220" y1="105" x2="280" y2="105" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="290,105 278,98 278,112" fill="#6b8afd"/>
+  <rect x="300" y="70" width="160" height="70" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="380" y="100" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">2. Reason</text>
+  <text x="380" y="122" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="11">plan next step</text>
+  <line x1="460" y1="105" x2="520" y2="105" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="530,105 518,98 518,112" fill="#6b8afd"/>
+  <rect x="540" y="70" width="160" height="70" rx="10" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="620" y="100" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">3. Act</text>
+  <text x="620" y="122" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="11">call a tool</text>
+  <line x1="700" y1="105" x2="760" y2="105" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="770,105 758,98 758,112" fill="#6b8afd"/>
+  <rect x="780" y="70" width="140" height="70" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="850" y="100" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">4. Observe</text>
+  <text x="850" y="122" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="11">tool result</text>
+  <path d="M850 140 V200 H140 V140" fill="none" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="480" y="195" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="12">Loop until done / max steps / failure</text>
+  <rect x="120" y="240" width="720" height="130" rx="12" fill="#121a33" stroke="#3d4f8a" stroke-width="2"/>
+  <text x="480" y="280" text-anchor="middle" fill="#b8c4f0" font-family="Arial, Helvetica, sans-serif" font-size="14">LLM decides what to do. Runtime executes tools. Results go back into context.</text>
+  <text x="480" y="315" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="13">This is why agents feel autonomous: they choose actions, not just sentences.</text>
+</svg>

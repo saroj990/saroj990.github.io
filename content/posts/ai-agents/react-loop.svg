@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">ReAct Pattern (Reason + Act)</text>
+  <rect x="80" y="80" width="180" height="60" rx="8" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="170" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14">Thought</text>
+  <line x1="260" y1="110" x2="320" y2="110" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="330,110 318,103 318,117" fill="#6b8afd"/>
+  <rect x="340" y="80" width="180" height="60" rx="8" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="430" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14">Action</text>
+  <line x1="520" y1="110" x2="580" y2="110" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="590,110 578,103 578,117" fill="#6b8afd"/>
+  <rect x="600" y="80" width="180" height="60" rx="8" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="690" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14">Observation</text>
+  <path d="M690 140 V200 H170 V140" fill="none" stroke="#4ecdc4" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="480" y="230" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="13">Repeat until the model returns a final answer</text>
+  <text x="480" y="280" text-anchor="middle" fill="#b8c4f0" font-family="Arial, Helvetica, sans-serif" font-size="13">Example: Thought: need weather - Action: get_weather(city) - Observation: 28C - Answer: ...</text>
+  <text x="480" y="310" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="12">Modern tool-calling APIs hide this format, but the loop is the same.</text>
+</svg>

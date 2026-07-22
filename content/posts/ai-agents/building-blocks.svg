@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380">
+  <rect width="960" height="380" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Core Building Blocks of an Agent</text>
+  <rect x="40" y="70" width="200" height="120" rx="10" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="140" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Model</text>
+  <text x="140" y="145" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">LLM brain</text>
+  <rect x="270" y="70" width="200" height="120" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="370" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Tools</text>
+  <text x="370" y="145" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">APIs, shell, search</text>
+  <rect x="500" y="70" width="200" height="120" rx="10" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="600" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Memory</text>
+  <text x="600" y="145" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">short + long term</text>
+  <rect x="730" y="70" width="190" height="120" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="825" y="115" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Orchestrator</text>
+  <text x="825" y="145" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">loop + policies</text>
+  <rect x="120" y="230" width="720" height="100" rx="12" fill="#121a33" stroke="#3d4f8a" stroke-width="2"/>
+  <text x="480" y="275" text-anchor="middle" fill="#b8c4f0" font-family="Arial, Helvetica, sans-serif" font-size="14">Remove tools and you have a chatbot. Remove the loop and you have a single completion.</text>
+  <text x="480" y="305" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="13">An agent is the combination of all four, running toward a goal.</text>
+</svg>
