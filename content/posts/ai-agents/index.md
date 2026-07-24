@@ -1,6 +1,6 @@
 +++
-title = 'AI Agents Explained: How They Work and the Terminology That Matters'
-date = '2026-07-22T22:50:00+05:30'
+title = 'From Chatbot to Agent: Building Blocks and the Words That Matter'
+date = '2026-07-22T12:00:00+05:30'
 draft = false
 description = 'A detailed guide to AI agents — how the plan-act-observe loop works, core building blocks, and the terminology engineers actually need.'
 tags = ['AI', 'Agents', 'LLM', 'Tool Calling', 'Engineering']

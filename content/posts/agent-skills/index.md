@@ -1,6 +1,6 @@
 +++
-title = 'Agent Skills Explained: Playbooks Your AI Agent Can Load on Demand'
-date = '2026-07-24T16:45:00+05:30'
+title = 'On-Demand Playbooks: Teaching Agents Specialized Workflows'
+date = '2026-07-23T10:00:00+05:30'
 draft = false
 description = 'What agent skills are, how they differ from rules and tools, how SKILL.md works in Cursor, and concrete skill ideas mapped to LLMs, agents, context windows, tree shaking, and monorepos.'
 tags = ['AI', 'Agents', 'Agent Skills', 'Cursor', 'Engineering', 'Productivity']

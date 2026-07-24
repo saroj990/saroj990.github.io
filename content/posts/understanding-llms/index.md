@@ -1,6 +1,6 @@
 +++
-title = 'How LLMs Work and How to Run Them Locally'
-date = '2026-06-24T18:45:00+05:30'
+title = 'Inside the Next Token: Running LLMs on Your Own Machine'
+date = '2026-07-22T10:00:00+05:30'
 draft = false
 description = 'A practical guide to understanding how Large Language Models work and how to run them locally on your own hardware using Ollama and LM Studio.'
 tags = ['LLM', 'AI', 'Ollama', 'LM Studio', 'Local AI', 'Tutorial']

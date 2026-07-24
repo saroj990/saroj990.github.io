@@ -2,12 +2,29 @@
     --home-accent: #6b8afd;
     --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    /* Fluid type scale: grows with viewport, capped on large screens */
+    --fs-body: clamp(0.9375rem, 0.88rem + 0.28vw, 1.0625rem);
+    --fs-small: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
+    --fs-h1: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
+    --fs-h2: clamp(1.375rem, 1.15rem + 0.9vw, 2rem);
+    --fs-h3: clamp(1.125rem, 1.02rem + 0.45vw, 1.5rem);
+    --fs-title: clamp(1.65rem, 1.2rem + 1.8vw, 2.5rem);
+    --fs-home-title: clamp(1.6rem, 1.25rem + 1.2vw, 2rem);
+    --lh-body: 1.65;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
     font-family: var(--font-sans);
     font-feature-settings: "ss01" on, "cv01" on;
+    font-size: var(--fs-body);
     letter-spacing: -0.011em;
+    line-height: var(--lh-body);
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -21,6 +38,49 @@ h1, h2, h3, h4, h5, h6,
     font-family: var(--font-sans);
     font-weight: 600;
     letter-spacing: -0.02em;
+}
+
+/* Override PaperMod fixed px headings with fluid sizes */
+.post-title,
+.page-header h1,
+.entry-header h2 {
+    font-size: var(--fs-title) !important;
+    line-height: 1.2;
+}
+
+.md-content h1,
+.post-content h1 {
+    font-size: var(--fs-h1) !important;
+    line-height: 1.25;
+}
+
+.md-content h2,
+.post-content h2 {
+    font-size: var(--fs-h2) !important;
+    line-height: 1.3;
+}
+
+.md-content h3,
+.post-content h3 {
+    font-size: var(--fs-h3) !important;
+    line-height: 1.35;
+}
+
+.md-content,
+.post-content {
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+}
+
+.post-meta,
+.breadcrumbs,
+.entry-footer,
+.home-post-meta {
+    font-size: var(--fs-small) !important;
+}
+
+.header .logo a {
+    font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
 }
 
 code, kbd, pre, .highlight,
@@ -51,7 +111,8 @@ code, kbd, pre, .highlight,
 
 .home-hero h1 {
     color: var(--primary);
-    font-size: 2rem;
+    font-size: var(--fs-home-title);
+    line-height: 1.2;
     margin: 0 0 0.5rem;
 }
 
@@ -107,7 +168,7 @@ code, kbd, pre, .highlight,
 
 .home-posts-title {
     color: var(--primary);
-    font-size: 1.35rem;
+    font-size: clamp(1.15rem, 1.05rem + 0.4vw, 1.35rem);
     margin: 0 0 0.25rem;
 }
 
@@ -129,14 +190,14 @@ code, kbd, pre, .highlight,
 
 .home-post h3 {
     color: var(--primary) !important;
-    font-size: 1.15rem;
+    font-size: clamp(1.02rem, 0.95rem + 0.3vw, 1.15rem);
     line-height: 1.35;
     margin: 0 0 0.45rem;
 }
 
 .home-post p {
     color: var(--secondary) !important;
-    font-size: 0.95rem;
+    font-size: clamp(0.9rem, 0.86rem + 0.15vw, 0.95rem);
     line-height: 1.55;
     margin: 0 0 0.55rem;
 }
@@ -298,4 +359,94 @@ code, kbd, pre, .highlight,
     font-size: 0.9rem;
     margin-top: 0.4rem;
     text-align: center;
+}
+
+/* Mermaid diagrams */
+.post-content .mermaid {
+    background: #0f1324;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin: 1.25rem auto;
+    overflow-x: auto;
+    padding: 1.1rem 0.85rem;
+    text-align: center;
+}
+
+.post-content .mermaid svg {
+    height: auto;
+    max-width: 100%;
+}
+
+.post-content .mermaid .nodeLabel,
+.post-content .mermaid .edgeLabel,
+.post-content .mermaid .label,
+.post-content .mermaid text {
+    font-size: 16px !important;
+}
+
+@media (max-width: 640px) {
+    .post-content .mermaid {
+        padding: 1rem 0.5rem;
+    }
+
+    .post-content .mermaid .nodeLabel,
+    .post-content .mermaid .edgeLabel,
+    .post-content .mermaid .label,
+    .post-content .mermaid text {
+        font-size: 15px !important;
+    }
+}
+
+/* Extra mobile tightening — PaperMod used fixed 40px titles */
+@media (max-width: 640px) {
+    :root {
+        --lh-body: 1.7;
+    }
+
+    .post-title,
+    .page-header h1,
+    .entry-header h2 {
+        letter-spacing: -0.03em;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .md-content h1,
+    .md-content h2,
+    .md-content h3,
+    .post-content h1,
+    .post-content h2,
+    .post-content h3 {
+        margin-top: 1.35rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .home-avatar {
+        height: 80px;
+        width: 80px;
+    }
+
+    .home-hero {
+        margin-bottom: 1.5rem;
+        padding-inline: 0.25rem;
+    }
+
+    .home-post {
+        padding: 0.95rem 1rem;
+    }
+
+    /* Keep code readable without overflowing */
+    .post-content pre,
+    .md-content pre,
+    .highlight {
+        font-size: 0.82rem;
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --lh-body: 1.7;
+    }
 }

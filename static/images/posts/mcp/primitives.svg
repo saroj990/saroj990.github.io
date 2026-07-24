@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="MCP primitives: tools, resources, prompts">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Three MCP primitives</text>
+  <text x="480" y="72" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Who decides to use them differs</text>
+
+  <rect x="40" y="110" width="280" height="260" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="180" y="155" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Tools</text>
+  <text x="180" y="195" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">Actions to execute</text>
+  <text x="180" y="230" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">create ticket, query DB,</text>
+  <text x="180" y="255" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">send message</text>
+  <text x="180" y="310" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Model-controlled</text>
+  <text x="180" y="335" text-anchor="middle" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="13">agent decides when</text>
+
+  <rect x="340" y="110" width="280" height="260" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="480" y="155" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Resources</text>
+  <text x="480" y="195" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">Readable context</text>
+  <text x="480" y="230" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">files, schemas,</text>
+  <text x="480" y="255" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">docs, records</text>
+  <text x="480" y="310" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">App-controlled</text>
+  <text x="480" y="335" text-anchor="middle" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="13">host chooses to load</text>
+
+  <rect x="640" y="110" width="280" height="260" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <text x="780" y="155" text-anchor="middle" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Prompts</text>
+  <text x="780" y="195" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">Reusable templates</text>
+  <text x="780" y="230" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">slash commands,</text>
+  <text x="780" y="255" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">guided workflows</text>
+  <text x="780" y="310" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">User-controlled</text>
+  <text x="780" y="335" text-anchor="middle" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="13">user picks explicitly</text>
+</svg>

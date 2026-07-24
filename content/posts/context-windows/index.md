@@ -1,6 +1,6 @@
 +++
-title = 'Context Windows Explained: Limits, Mitigations, and How ChatGPT & Cursor Handle Them'
-date = '2026-07-24T09:15:00+05:30'
+title = 'The Token Budget: Why Finite Context Still Shapes Every Agent'
+date = '2026-07-22T16:00:00+05:30'
 draft = false
 description = 'What an LLM context window really is, why size limits still matter in 2026, how teams work around them, and how products like ChatGPT and Cursor manage context in practice.'
 tags = ['AI', 'LLM', 'Context Window', 'RAG', 'Cursor', 'ChatGPT', 'Engineering']

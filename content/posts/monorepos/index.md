@@ -1,6 +1,6 @@
 +++
-title = 'Monorepos Explained: Background, Tradeoffs, and Tools like Nx'
-date = '2026-07-23T13:05:00+05:30'
+title = 'One Repo, Many Apps: Workspaces, Task Graphs, and Tools like Nx'
+date = '2026-07-21T14:00:00+05:30'
 draft = false
 description = 'A practical guide to monorepos — why teams adopt them, how workspaces and task graphs work, and how tools like pnpm, Nx, Turborepo, Bazel, and Rush fit together.'
 tags = ['Monorepo', 'Nx', 'Turborepo', 'pnpm', 'DevTools', 'Engineering']

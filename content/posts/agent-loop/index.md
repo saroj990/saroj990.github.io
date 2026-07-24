@@ -1,6 +1,6 @@
 +++
-title = 'The Agent Loop: How AI Agents Actually Make Progress'
-date = '2026-07-24T16:20:00+05:30'
+title = 'Reason, Act, Observe: The Control Loop Behind Agents'
+date = '2026-07-22T14:00:00+05:30'
 draft = false
 description = 'A deep dive into the agent loop - reason, act, observe, repeat - including trajectories, stop conditions, failure modes, and how coding agents use it in practice.'
 tags = ['AI', 'Agents', 'Agent Loop', 'Tool Calling', 'ReAct', 'Engineering']

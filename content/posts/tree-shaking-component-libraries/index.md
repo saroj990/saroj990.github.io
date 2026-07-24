@@ -1,6 +1,6 @@
 +++
 title = 'Tree Shaking in Component Libraries: What Actually Works'
-date = '2026-07-23T12:55:00+05:30'
+date = '2026-07-21T12:00:00+05:30'
 draft = false
 description = 'A granular guide to tree shaking for component libraries — ESM, sideEffects, barrel files, bundler behavior, and how to verify unused components really drop out of the bundle.'
 tags = ['JavaScript', 'Tree Shaking', 'Component Libraries', 'Bundlers', 'Frontend']
