@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Skill folder structure with progressive disclosure">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Anatomy of a skill</text>
+  <text x="480" y="70" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">Load a thin SKILL.md first; open deeper files only when needed</text>
+
+  <rect x="80" y="110" width="360" height="260" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="110" y="150" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">pdf-processing/</text>
+  <text x="130" y="185" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14">SKILL.md</text>
+  <text x="280" y="185" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="12">required</text>
+  <text x="130" y="220" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">reference.md</text>
+  <text x="280" y="220" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12">optional</text>
+  <text x="130" y="255" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">examples.md</text>
+  <text x="280" y="255" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12">optional</text>
+  <text x="130" y="290" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">scripts/</text>
+  <text x="280" y="290" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12">optional</text>
+  <text x="150" y="320" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="12">validate.py, helper.sh</text>
+
+  <rect x="500" y="110" width="380" height="260" rx="12" fill="#1e293b" stroke="#a78bfa"/>
+  <text x="690" y="150" text-anchor="middle" fill="#a78bfa" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Progressive disclosure</text>
+  <text x="530" y="195" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">1. Description is always visible</text>
+  <text x="530" y="225" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">2. SKILL.md loads when matched</text>
+  <text x="530" y="255" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">3. reference.md only if needed</text>
+  <text x="530" y="285" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">4. Scripts run for fragile steps</text>
+  <text x="530" y="330" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12">Protects the context window</text>
+</svg>

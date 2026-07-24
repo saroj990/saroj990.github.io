@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Agent skills as packaged playbooks the agent can load">
+  <rect width="960" height="400" fill="#0f172a"/>
+  <text x="480" y="48" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Agent Skills</text>
+  <text x="480" y="78" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Packaged playbooks the agent loads only when the task matches</text>
+
+  <rect x="60" y="120" width="240" height="220" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="180" y="160" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">SKILL.md</text>
+  <text x="180" y="195" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">name + description</text>
+  <text x="180" y="220" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">step-by-step workflow</text>
+  <text x="180" y="245" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">templates / examples</text>
+  <text x="180" y="270" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">optional scripts</text>
+  <text x="180" y="310" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="12">on-demand knowledge</text>
+
+  <path d="M320 230 H390" stroke="#64748b" stroke-width="3"/>
+  <polygon points="390,222 410,230 390,238" fill="#64748b"/>
+
+  <rect x="420" y="150" width="200" height="160" rx="14" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <text x="520" y="200" text-anchor="middle" fill="#a78bfa" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Agent</text>
+  <text x="520" y="230" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">matches description</text>
+  <text x="520" y="255" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">loads instructions</text>
+  <text x="520" y="280" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">follows the playbook</text>
+
+  <path d="M640 230 H710" stroke="#64748b" stroke-width="3"/>
+  <polygon points="710,222 730,230 710,238" fill="#64748b"/>
+
+  <rect x="740" y="150" width="160" height="160" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="820" y="210" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Better</text>
+  <text x="820" y="240" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">consistent</text>
+  <text x="820" y="265" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">repeatable</text>
+  <text x="820" y="290" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="13">task output</text>
+</svg>
