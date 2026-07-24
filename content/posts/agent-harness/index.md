@@ -43,30 +43,7 @@ It is the software that:
 
 A raw chat completion API is not a harness. Cursor Agent, Claude Code, Codex-style coding agents, and custom LangGraph/OpenAI Agents SDK apps *are* harnesses (with different opinions).
 
-```mermaid
-flowchart TB
-  User[User goal] --> Harness
-  subgraph Harness[Agent harness]
-    Guides[Guides: prompts rules skills]
-    Context[Context pipeline]
-    Loop[Orchestration loop]
-    Tools[Tool runtime]
-    Sensors[Sensors: tests evals hooks]
-    Memory[Memory and state]
-  end
-  Model[LLM]
-  Env[Environment: repo shell browser APIs]
-
-  Guides --> Context
-  Context --> Model
-  Model --> Loop
-  Loop --> Tools
-  Tools --> Env
-  Env --> Sensors
-  Sensors --> Memory
-  Memory --> Context
-  Loop -->|final answer or stop| User
-```
+<img src="/images/posts/agent-harness/harness-runtime.svg" alt="User goal flows through the agent harness to the model and environment" width="960" height="620" />
 
 ---
 
@@ -164,25 +141,7 @@ Keep the loop honest:
 - secrets handling  
 - traces, cost meters, replayable logs  
 
-```mermaid
-flowchart TB
-  subgraph Before[Before action]
-    G[Guides]
-    C[Context build]
-  end
-  subgraph During[During action]
-    M[Model decide]
-    T[Tool execute]
-  end
-  subgraph After[After action]
-    S[Sensors]
-    L[Log trajectory]
-    D{Done?}
-  end
-  G --> C --> M --> T --> S --> L --> D
-  D -->|no| C
-  D -->|yes| Stop[Stop / report]
-```
+<img src="/images/posts/agent-harness/action-stages.svg" alt="Before during and after action stages in the harness" width="960" height="520" />
 
 ---
 
@@ -254,14 +213,7 @@ Evaluate **model + harness pairs**. A harness change can beat a model upgrade.
 
 ## Failure modes are usually harness bugs
 
-```mermaid
-flowchart TB
-  F1[Agent spins forever] --> H1[Missing step cap / duplicate detection]
-  F2[Says done but broken] --> H2[No sensor / done-check]
-  F3[Deletes wrong files] --> H3[Permissions too wide]
-  F4[Forgets earlier decisions] --> H4[Weak context / compaction policy]
-  F5[Wrong tool every time] --> H5[Bad schemas or noisy guides]
-```
+<img src="/images/posts/agent-harness/failure-modes.svg" alt="Common agent failures mapped to harness bugs" width="960" height="560" />
 
 Blame the model last. Ask:
 

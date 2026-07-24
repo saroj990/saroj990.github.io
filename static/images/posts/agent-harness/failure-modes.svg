@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-label="Common agent failures mapped to harness bugs">
+  <rect width="960" height="560" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Failure modes are usually harness bugs</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15">Symptom on the left, missing harness control on the right</text>
+
+  <!-- Headers -->
+  <text x="200" y="110" text-anchor="middle" fill="#f43f5e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">What you see</text>
+  <text x="700" y="110" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">What is missing</text>
+
+  <!-- Row 1 -->
+  <rect x="40" y="130" width="360" height="56" rx="10" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="220" y="165" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="15">Agent spins forever</text>
+  <text x="440" y="165" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="18">-&gt;</text>
+  <rect x="480" y="130" width="440" height="56" rx="10" fill="#1e293b" stroke="#22c55e"/>
+  <text x="700" y="165" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="15">Step cap / duplicate detection</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="205" width="360" height="56" rx="10" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="220" y="240" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="15">Says done but broken</text>
+  <text x="440" y="240" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="18">-&gt;</text>
+  <rect x="480" y="205" width="440" height="56" rx="10" fill="#1e293b" stroke="#22c55e"/>
+  <text x="700" y="240" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="15">Sensor / done-check</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="280" width="360" height="56" rx="10" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="220" y="315" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="15">Deletes wrong files</text>
+  <text x="440" y="315" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="18">-&gt;</text>
+  <rect x="480" y="280" width="440" height="56" rx="10" fill="#1e293b" stroke="#22c55e"/>
+  <text x="700" y="315" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="15">Permissions too wide</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="355" width="360" height="56" rx="10" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="220" y="390" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="15">Forgets earlier decisions</text>
+  <text x="440" y="390" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="18">-&gt;</text>
+  <rect x="480" y="355" width="440" height="56" rx="10" fill="#1e293b" stroke="#22c55e"/>
+  <text x="700" y="390" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="15">Weak context / compaction</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="430" width="360" height="56" rx="10" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="220" y="465" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="15">Wrong tool every time</text>
+  <text x="440" y="465" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="18">-&gt;</text>
+  <rect x="480" y="430" width="440" height="56" rx="10" fill="#1e293b" stroke="#22c55e"/>
+  <text x="700" y="465" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="15">Bad schemas or noisy guides</text>
+
+  <text x="480" y="530" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Blame the model last - inspect guides, observations, sensors, and stops</text>
+</svg>

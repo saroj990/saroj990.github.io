@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-label="Before during and after action stages in the harness">
+  <rect width="960" height="520" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">One action through the harness</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15">Guides and context first, then execute, then verify and loop</text>
+
+  <!-- Before -->
+  <rect x="40" y="100" width="280" height="200" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="180" y="140" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Before action</text>
+  <rect x="70" y="165" width="220" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="180" y="193" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="15">Guides</text>
+  <rect x="70" y="225" width="220" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="180" y="253" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="15">Context build</text>
+
+  <!-- During -->
+  <rect x="340" y="100" width="280" height="200" rx="14" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+  <text x="480" y="140" text-anchor="middle" fill="#a78bfa" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">During action</text>
+  <rect x="370" y="165" width="220" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="480" y="193" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="15">Model decide</text>
+  <rect x="370" y="225" width="220" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="480" y="253" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="15">Tool execute</text>
+
+  <!-- After -->
+  <rect x="640" y="100" width="280" height="200" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="780" y="140" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">After action</text>
+  <rect x="670" y="160" width="220" height="36" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="780" y="184" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14">Sensors</text>
+  <rect x="670" y="206" width="220" height="36" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="780" y="230" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14">Log trajectory</text>
+  <rect x="670" y="252" width="220" height="36" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="780" y="276" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="14">Done?</text>
+
+  <!-- Flow row -->
+  <rect x="40" y="340" width="880" height="140" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="60" y="380" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Flow</text>
+  <text x="60" y="415" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">Guides -&gt; Context -&gt; Model -&gt; Tool -&gt; Sensors -&gt; Log -&gt; Done?</text>
+  <text x="60" y="450" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15">No: rebuild context and continue. Yes: stop / report.</text>
+</svg>
