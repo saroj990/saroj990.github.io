@@ -3,14 +3,18 @@
     --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
-    /* Fluid type scale: grows with viewport, capped on large screens */
-    --fs-body: clamp(0.9375rem, 0.88rem + 0.28vw, 1.0625rem);
-    --fs-small: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
-    --fs-h1: clamp(1.75rem, 1.35rem + 1.6vw, 2.5rem);
-    --fs-h2: clamp(1.375rem, 1.15rem + 0.9vw, 2rem);
-    --fs-h3: clamp(1.125rem, 1.02rem + 0.45vw, 1.5rem);
-    --fs-title: clamp(1.65rem, 1.2rem + 1.8vw, 2.5rem);
-    --fs-home-title: clamp(1.6rem, 1.25rem + 1.2vw, 2rem);
+    /* Wider reading column on laptop / desktop (PaperMod default is 720px) */
+    --main-width: 800px;
+    --nav-width: 1080px;
+
+    /* Type scale tuned for 14" laptops - less aggressive than before */
+    --fs-body: clamp(0.9375rem, 0.9rem + 0.15vw, 1.0625rem);
+    --fs-small: clamp(0.8125rem, 0.8rem + 0.1vw, 0.875rem);
+    --fs-h1: clamp(1.35rem, 1.2rem + 0.55vw, 1.75rem);
+    --fs-h2: clamp(1.2rem, 1.1rem + 0.4vw, 1.5rem);
+    --fs-h3: clamp(1.05rem, 1rem + 0.25vw, 1.25rem);
+    --fs-title: clamp(1.45rem, 1.25rem + 0.7vw, 1.9rem);
+    --fs-home-title: clamp(1.4rem, 1.25rem + 0.5vw, 1.75rem);
     --lh-body: 1.65;
 }
 
@@ -95,7 +99,7 @@ code, kbd, pre, .highlight,
 /* Custom homepage — avoids PaperMod post-entry display bugs */
 .home-hero {
     margin: 0 auto 2rem;
-    max-width: 40rem;
+    max-width: 800px;
     text-align: center;
 }
 
@@ -448,5 +452,7 @@ code, kbd, pre, .highlight,
 @media (min-width: 1024px) {
     :root {
         --lh-body: 1.7;
+        /* Keep the same reading width on laptop and larger monitors */
+        --main-width: 800px;
     }
 }
