@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-label="Common strategies to work around finite context">
   <rect width="960" height="480" fill="#0f172a"/>
-  <text x="480" y="48" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700">Working around a finite window</text>
-  <text x="480" y="78" text-anchor="middle" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="14">Do not shove everything in  select, compress, or store outside</text>
+  <text x="480" y="48" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Working around a finite window</text>
+  <text x="480" y="78" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Do not shove everything in - select, compress, or store outside</text>
 
-  <g font-family="Inter, system-ui, sans-serif">
+  <g font-family="Arial, Helvetica, sans-serif">
     <rect x="40" y="110" width="280" height="150" rx="14" fill="#1e293b" stroke="#38bdf8"/>
     <text x="180" y="148" text-anchor="middle" fill="#38bdf8" font-size="18" font-weight="700">Retrieve (RAG)</text>
     <text x="180" y="180" text-anchor="middle" fill="#cbd5e1" font-size="14">Index a large corpus.</text>
@@ -25,7 +25,7 @@
     <rect x="40" y="290" width="280" height="150" rx="14" fill="#1e293b" stroke="#a78bfa"/>
     <text x="180" y="328" text-anchor="middle" fill="#a78bfa" font-size="18" font-weight="700">Tools / agents</text>
     <text x="180" y="360" text-anchor="middle" fill="#cbd5e1" font-size="14">Search, open a file, run</text>
-    <text x="180" y="382" text-anchor="middle" fill="#cbd5e1" font-size="14">a command  fetch on</text>
+    <text x="180" y="382" text-anchor="middle" fill="#cbd5e1" font-size="14">a command - fetch on</text>
     <text x="180" y="404" text-anchor="middle" fill="#cbd5e1" font-size="14">demand instead of preload.</text>
 
     <rect x="340" y="290" width="280" height="150" rx="14" fill="#1e293b" stroke="#f43f5e"/>
