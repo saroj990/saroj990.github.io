@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-label="ChatGPT conversation memory vs Cursor retrieval into context">
+  <rect width="960" height="460" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700">Two products, two context strategies</text>
+
+  <!-- ChatGPT column -->
+  <rect x="40" y="70" width="420" height="360" rx="16" fill="#1e293b" stroke="#38bdf8"/>
+  <text x="250" y="110" text-anchor="middle" fill="#38bdf8" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">ChatGPT</text>
+  <text x="250" y="138" text-anchor="middle" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="13">Conversation-centric</text>
+
+  <rect x="70" y="160" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="250" y="188" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Replay recent turns in-window</text>
+
+  <rect x="70" y="220" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="250" y="248" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Compact / summarize older history</text>
+
+  <rect x="70" y="280" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="250" y="308" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Optional long-term Memory facts</text>
+
+  <rect x="70" y="340" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="250" y="368" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Uploads / search when attached</text>
+
+  <!-- Cursor column -->
+  <rect x="500" y="70" width="420" height="360" rx="16" fill="#1e293b" stroke="#22c55e"/>
+  <text x="710" y="110" text-anchor="middle" fill="#22c55e" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700">Cursor</text>
+  <text x="710" y="138" text-anchor="middle" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="13">Codebase-centric + tools</text>
+
+  <rect x="530" y="160" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="710" y="188" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Index repo via embeddings</text>
+
+  <rect x="530" y="220" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="710" y="248" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Retrieve only relevant chunks</text>
+
+  <rect x="530" y="280" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="710" y="308" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">@files, rules, open editors</text>
+
+  <rect x="530" y="340" width="360" height="44" rx="8" fill="#0f172a" stroke="#334155"/>
+  <text x="710" y="368" text-anchor="middle" fill="#e2e8f0" font-family="Inter, system-ui, sans-serif" font-size="13">Agent tools fetch more on demand</text>
+</svg>

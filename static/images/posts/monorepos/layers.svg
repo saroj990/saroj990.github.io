@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Layers of a JS/TS Monorepo</text>
+  <rect x="60" y="70" width="200" height="220" rx="12" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="160" y="120" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">1. VCS</text>
+  <text x="160" y="155" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">Git history</text>
+  <text x="160" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">code ownership</text>
+  <text x="160" y="205" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">single source</text>
+  <rect x="280" y="70" width="200" height="220" rx="12" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="380" y="120" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">2. Workspaces</text>
+  <text x="380" y="155" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">pnpm / yarn / npm</text>
+  <text x="380" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">local package links</text>
+  <text x="380" y="205" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">hoisting / isolation</text>
+  <rect x="500" y="70" width="200" height="220" rx="12" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="600" y="120" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">3. Task runners</text>
+  <text x="600" y="155" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">Nx / Turbo / Lage</text>
+  <text x="600" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">graph + cache</text>
+  <text x="600" y="205" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">affected projects</text>
+  <rect x="720" y="70" width="200" height="220" rx="12" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="820" y="120" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">4. Remote CI</text>
+  <text x="820" y="155" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">remote cache</text>
+  <text x="820" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">distributed tasks</text>
+  <text x="820" y="205" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="12">release pipelines</text>
+  <text x="480" y="330" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="13">Most teams start at workspaces, then add a task runner when CI gets slow</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Polyrepo vs Monorepo</text>
+  <rect x="40" y="70" width="420" height="270" rx="12" fill="#1f1418" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="250" y="105" text-anchor="middle" fill="#fca5a5" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Polyrepo</text>
+  <rect x="70" y="130" width="110" height="50" rx="8" fill="#2d1f1f" stroke="#ef4444" stroke-width="2"/>
+  <text x="125" y="160" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="12">web-app</text>
+  <rect x="195" y="130" width="110" height="50" rx="8" fill="#2d1f1f" stroke="#ef4444" stroke-width="2"/>
+  <text x="250" y="160" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="12">api</text>
+  <rect x="320" y="130" width="110" height="50" rx="8" fill="#2d1f1f" stroke="#ef4444" stroke-width="2"/>
+  <text x="375" y="160" text-anchor="middle" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="12">ui-kit</text>
+  <text x="250" y="230" text-anchor="middle" fill="#f87171" font-family="Arial, Helvetica, sans-serif" font-size="12">Separate repos + versioning</text>
+  <text x="250" y="260" text-anchor="middle" fill="#f87171" font-family="Arial, Helvetica, sans-serif" font-size="12">Cross-repo PRs are hard</text>
+  <text x="250" y="290" text-anchor="middle" fill="#f87171" font-family="Arial, Helvetica, sans-serif" font-size="12">Duplicate tooling config</text>
+  <rect x="500" y="70" width="420" height="270" rx="12" fill="#101f18" stroke="#166534" stroke-width="2"/>
+  <text x="710" y="105" text-anchor="middle" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Monorepo</text>
+  <rect x="540" y="130" width="340" height="140" rx="10" fill="#14291f" stroke="#22c55e" stroke-width="2"/>
+  <text x="710" y="165" text-anchor="middle" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="13">one repository</text>
+  <text x="710" y="195" text-anchor="middle" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="12">apps/web  apps/api  packages/ui</text>
+  <text x="710" y="225" text-anchor="middle" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="12">shared lint, CI, types, ownership</text>
+  <text x="710" y="255" text-anchor="middle" fill="#4ade80" font-family="Arial, Helvetica, sans-serif" font-size="12">Atomic cross-package changes</text>
+  <text x="710" y="310" text-anchor="middle" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="12">Needs workspace + task tooling</text>
+</svg>

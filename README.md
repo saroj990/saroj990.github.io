@@ -206,3 +206,6 @@ Site settings live in `hugo.toml`, including:
 ## License
 
 Blog content is © Saroj. The [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme is licensed under its own terms — see the theme repository for details.
+```bash
+hugo server -D --disableFastRender --baseURL http://localhost:1313/
+```

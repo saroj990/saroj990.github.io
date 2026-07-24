@@ -1,5 +1,35 @@
 :root {
     --home-accent: #6b8afd;
+    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01" on, "cv01" on;
+    letter-spacing: -0.011em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.header .logo a,
+.post-title,
+.entry-header h1,
+.entry-header h2,
+.home-hero h1,
+.home-posts-title,
+.home-post h3 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+code, kbd, pre, .highlight,
+.post-content code,
+.md-content code,
+.md-content pre code {
+    font-family: var(--font-mono) !important;
+    font-size: 0.9em;
+    letter-spacing: 0;
 }
 
 /* Custom homepage — avoids PaperMod post-entry display bugs */

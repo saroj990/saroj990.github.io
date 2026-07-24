@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">What Bundlers Need to Tree Shake</text>
+  <rect x="50" y="70" width="270" height="220" rx="12" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="185" y="110" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">1. ESM syntax</text>
+  <text x="185" y="150" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">import / export</text>
+  <text x="185" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">static, analyzable</text>
+  <text x="185" y="220" text-anchor="middle" fill="#6b8afd" font-family="Arial, Helvetica, sans-serif" font-size="12">Not require()</text>
+  <rect x="345" y="70" width="270" height="220" rx="12" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="480" y="110" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">2. No side effects</text>
+  <text x="480" y="150" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">or declare them</text>
+  <text x="480" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">sideEffects in pkg.json</text>
+  <text x="480" y="220" text-anchor="middle" fill="#4ecdc4" font-family="Arial, Helvetica, sans-serif" font-size="12">CSS / polyfills matter</text>
+  <rect x="640" y="70" width="270" height="220" rx="12" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="775" y="110" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">3. Production build</text>
+  <text x="775" y="150" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">minify + DCE</text>
+  <text x="775" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">unused exports drop</text>
+  <text x="775" y="220" text-anchor="middle" fill="#6b8afd" font-family="Arial, Helvetica, sans-serif" font-size="12">Dev often keeps more</text>
+</svg>

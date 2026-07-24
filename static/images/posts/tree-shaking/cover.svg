@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+  <rect width="960" height="400" fill="#0f1324"/>
+  <text x="480" y="36" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Tree Shaking a Component Library</text>
+  <rect x="60" y="80" width="280" height="220" rx="12" fill="#1a2548" stroke="#6b8afd" stroke-width="2"/>
+  <text x="200" y="120" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Library ships</text>
+  <text x="200" y="155" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">Button</text>
+  <text x="200" y="180" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">Modal</text>
+  <text x="200" y="205" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">Table</text>
+  <text x="200" y="230" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">DatePicker</text>
+  <text x="200" y="255" text-anchor="middle" fill="#9aa8d8" font-family="Arial, Helvetica, sans-serif" font-size="13">Charts...</text>
+  <line x1="340" y1="190" x2="420" y2="190" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="430,190 418,183 418,197" fill="#6b8afd"/>
+  <rect x="440" y="80" width="200" height="220" rx="12" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="540" y="130" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">App imports</text>
+  <text x="540" y="175" text-anchor="middle" fill="#4ecdc4" font-family="Arial, Helvetica, sans-serif" font-size="14">Button only</text>
+  <line x1="640" y1="190" x2="720" y2="190" stroke="#6b8afd" stroke-width="2"/>
+  <polygon points="730,190 718,183 718,197" fill="#6b8afd"/>
+  <rect x="740" y="80" width="180" height="220" rx="12" fill="#14291f" stroke="#22c55e" stroke-width="2"/>
+  <text x="830" y="130" text-anchor="middle" fill="#e8ecff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Bundle keeps</text>
+  <text x="830" y="175" text-anchor="middle" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="14">Button</text>
+  <text x="830" y="210" text-anchor="middle" fill="#4ade80" font-family="Arial, Helvetica, sans-serif" font-size="12">Rest shaken out</text>
+  <text x="480" y="350" text-anchor="middle" fill="#8b97c7" font-family="Arial, Helvetica, sans-serif" font-size="13">If setup is wrong, unused components still ship in the final JS</text>
+</svg>
