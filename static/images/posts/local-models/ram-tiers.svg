@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="RAM tiers for local models">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Rough RAM map (Q4 quantized models)</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Leave headroom for the OS, browser, and context cache</text>
+
+  <rect x="40" y="100" width="200" height="260" rx="12" fill="#1e293b" stroke="#64748b"/>
+  <text x="140" y="145" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">8 GB</text>
+  <text x="140" y="190" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">3B-4B class</text>
+  <text x="140" y="220" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">chat demos</text>
+  <text x="140" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">tight / slow</text>
+
+  <rect x="260" y="100" width="200" height="260" rx="12" fill="#1e293b" stroke="#38bdf8"/>
+  <text x="360" y="145" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">16 GB</text>
+  <text x="360" y="190" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">7B-8B class</text>
+  <text x="360" y="220" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">daily laptop use</text>
+  <text x="360" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">best starting point</text>
+
+  <rect x="480" y="100" width="200" height="260" rx="12" fill="#1e293b" stroke="#22c55e"/>
+  <text x="580" y="145" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">32 GB</text>
+  <text x="580" y="190" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">14B-34B class</text>
+  <text x="580" y="220" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">coding + agents</text>
+  <text x="580" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">comfortable</text>
+
+  <rect x="700" y="100" width="220" height="260" rx="12" fill="#1e293b" stroke="#f59e0b"/>
+  <text x="810" y="145" text-anchor="middle" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">64 GB+</text>
+  <text x="810" y="190" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">70B Q4 class</text>
+  <text x="810" y="220" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">Mac Studio /</text>
+  <text x="810" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">high-end Pro</text>
+</svg>

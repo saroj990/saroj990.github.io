@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Local model runs on your machine instead of a cloud API">
+  <rect width="960" height="400" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Local models on your machine</text>
+  <text x="480" y="72" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="15">Chat and agents without sending every prompt to the cloud</text>
+
+  <rect x="60" y="120" width="240" height="200" rx="14" fill="#1e293b" stroke="#f43f5e" stroke-width="2"/>
+  <text x="180" y="175" text-anchor="middle" fill="#f43f5e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Cloud API</text>
+  <text x="180" y="215" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Prompt leaves your</text>
+  <text x="180" y="240" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">laptop every time</text>
+  <text x="180" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">pay per token</text>
+
+  <rect x="360" y="120" width="240" height="200" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="480" y="175" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Your laptop / Mac</text>
+  <text x="480" y="215" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Ollama or LM Studio</text>
+  <text x="480" y="240" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">loads a GGUF model</text>
+  <text x="480" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">localhost:11434</text>
+
+  <rect x="660" y="120" width="240" height="200" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="780" y="175" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">You keep</text>
+  <text x="780" y="215" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">privacy, offline use,</text>
+  <text x="780" y="240" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">no API bill for chat</text>
+  <text x="780" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">you pay in RAM + time</text>
+</svg>
