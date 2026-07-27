@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Similar meanings land near each other in vector space">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Nearby vectors = similar meaning</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">2D sketch of a high-dimensional space (real models use hundreds or thousands of dimensions)</text>
+
+  <!-- axes -->
+  <line x1="120" y1="360" x2="860" y2="360" stroke="#334155" stroke-width="2"/>
+  <line x1="120" y1="360" x2="120" y2="100" stroke="#334155" stroke-width="2"/>
+
+  <!-- cluster dogs -->
+  <circle cx="280" cy="220" r="10" fill="#38bdf8"/>
+  <circle cx="310" cy="200" r="8" fill="#38bdf8"/>
+  <circle cx="300" cy="245" r="8" fill="#38bdf8"/>
+  <text x="290" y="185" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="14">dog / puppy</text>
+
+  <!-- cluster cars -->
+  <circle cx="620" cy="160" r="10" fill="#22c55e"/>
+  <circle cx="650" cy="180" r="8" fill="#22c55e"/>
+  <circle cx="600" cy="185" r="8" fill="#22c55e"/>
+  <text x="640" y="140" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="14">car / vehicle</text>
+
+  <!-- query -->
+  <circle cx="340" cy="230" r="12" fill="#f59e0b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="420" y="280" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="14">query: "pet that barks"</text>
+  <text x="420" y="305" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">nearest neighbors land in the dog cluster</text>
+</svg>
