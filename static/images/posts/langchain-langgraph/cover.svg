@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="LangChain builds chains, LangGraph builds stateful loops">
+  <rect width="960" height="400" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">LangChain + LangGraph</text>
+  <text x="480" y="72" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Components and linear chains vs stateful agent graphs</text>
+
+  <rect x="60" y="120" width="380" height="220" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="250" y="170" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">LangChain</text>
+  <text x="250" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">prompts, models, tools,</text>
+  <text x="250" y="235" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">retrievers, LCEL pipelines</text>
+  <text x="250" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">best for linear workflows</text>
+
+  <rect x="520" y="120" width="380" height="220" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="710" y="170" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">LangGraph</text>
+  <text x="710" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">state, nodes, edges,</text>
+  <text x="710" y="235" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">loops, checkpoints</text>
+  <text x="710" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">best for agents that retry</text>
+</svg>

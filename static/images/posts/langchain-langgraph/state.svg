@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Shared state updated by each node">
+  <rect width="960" height="360" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Shared state is the graph's memory</text>
+
+  <rect x="120" y="90" width="720" height="200" rx="14" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="480" y="130" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">AgentState</text>
+  <text x="200" y="180" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="14">messages: [...]</text>
+  <text x="480" y="180" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="14">optional: files, flags</text>
+  <text x="200" y="220" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Each node returns a partial update.</text>
+  <text x="200" y="245" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Reducers (like add_messages) merge updates safely.</text>
+</svg>
