@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Continuous weights mapped to discrete buckets">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Map a range of floats into a few integer bins</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">scale and zero-point turn real numbers into 4-bit or 8-bit codes</text>
+
+  <!-- continuum -->
+  <line x1="80" y1="180" x2="880" y2="180" stroke="#64748b" stroke-width="3"/>
+  <text x="80" y="160" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">min</text>
+  <text x="850" y="160" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">max</text>
+
+  <!-- bins -->
+  <rect x="120" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="200" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="280" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="360" y="200" width="70" height="50" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <rect x="440" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="520" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="600" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+  <rect x="680" y="200" width="70" height="50" fill="#1e293b" stroke="#38bdf8"/>
+
+  <text x="395" y="232" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">q</text>
+  <text x="480" y="290" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">q = round(x / scale + zero)</text>
+  <text x="480" y="320" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="15">x_hat = (q - zero) * scale</text>
+  <text x="480" y="360" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">x_hat is close to x - that gap is quantization error</text>
+</svg>

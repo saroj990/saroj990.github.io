@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Per tensor vs per group quantization">
+  <rect width="960" height="420" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Finer scales = less error</text>
+
+  <rect x="50" y="90" width="400" height="270" rx="14" fill="#1e293b" stroke="#f43f5e"/>
+  <text x="250" y="140" text-anchor="middle" fill="#f43f5e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Per-tensor</text>
+  <text x="250" y="185" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">One scale for a whole</text>
+  <text x="250" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">matrix</text>
+  <text x="250" y="255" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">cheap metadata,</text>
+  <text x="250" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">outliers hurt everyone</text>
+
+  <rect x="510" y="90" width="400" height="270" rx="14" fill="#1e293b" stroke="#22c55e"/>
+  <text x="710" y="140" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Grouped / K-quants</text>
+  <text x="710" y="185" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Separate scale every</text>
+  <text x="710" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">32 / 64 / 256 weights</text>
+  <text x="710" y="255" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">more metadata,</text>
+  <text x="710" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">better quality at 4-bit</text>
+</svg>

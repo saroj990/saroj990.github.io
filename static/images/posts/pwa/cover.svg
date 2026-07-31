@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="PWA sits between website and native app">
+  <rect width="960" height="400" fill="#0f172a"/>
+  <text x="480" y="42" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Production-grade Progressive Web Apps</text>
+  <text x="480" y="72" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14">Installable, offline-capable, secure - with a real update story</text>
+
+  <rect x="50" y="120" width="250" height="200" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+  <text x="175" y="180" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Website</text>
+  <text x="175" y="220" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">tabs only,</text>
+  <text x="175" y="245" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">online required</text>
+
+  <rect x="355" y="110" width="250" height="220" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="480" y="170" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PWA</text>
+  <text x="480" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">manifest + SW,</text>
+  <text x="480" y="235" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">HTTPS, offline,</text>
+  <text x="480" y="260" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">installable</text>
+
+  <rect x="660" y="120" width="250" height="200" rx="14" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="785" y="180" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Native app</text>
+  <text x="785" y="220" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">store review,</text>
+  <text x="785" y="245" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">platform SDKs</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-label="Caching strategies comparison">
+  <rect width="960" height="460" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Pick a cache strategy per asset type</text>
+
+  <rect x="40" y="90" width="280" height="300" rx="12" fill="#1e293b" stroke="#38bdf8"/>
+  <text x="180" y="135" text-anchor="middle" fill="#38bdf8" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Cache first</text>
+  <text x="180" y="180" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Serve cache,</text>
+  <text x="180" y="205" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">update later</text>
+  <text x="180" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">hashed JS/CSS,</text>
+  <text x="180" y="275" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">icons, fonts</text>
+
+  <rect x="340" y="90" width="280" height="300" rx="12" fill="#1e293b" stroke="#22c55e"/>
+  <text x="480" y="135" text-anchor="middle" fill="#22c55e" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Network first</text>
+  <text x="480" y="180" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Fresh when online,</text>
+  <text x="480" y="205" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">cache fallback</text>
+  <text x="480" y="250" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">API JSON,</text>
+  <text x="480" y="275" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">HTML shells</text>
+
+  <rect x="640" y="90" width="280" height="300" rx="12" fill="#1e293b" stroke="#f59e0b"/>
+  <text x="780" y="135" text-anchor="middle" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Stale-while</text>
+  <text x="780" y="160" text-anchor="middle" fill="#f59e0b" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">-revalidate</text>
+  <text x="780" y="205" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">Instant UI,</text>
+  <text x="780" y="230" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="14">refresh in background</text>
+  <text x="780" y="275" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">feeds, catalogs,</text>
+  <text x="780" y="300" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="13">semi-fresh pages</text>
+</svg>
